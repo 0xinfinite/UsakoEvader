@@ -1,0 +1,17 @@
+Object030	03 - Default	24 - Default
+Object029	03 - Default
+Pril	24 - Default
+Object028	24 - Default
+Object023	03 - Default
+Object022	03 - Default
+Object021	03 - Default
+Object020	03 - Default
+Object019	03 - Default
+Object018	03 - Default
+Object016	03 - Default
+Object015	03 - Default
+Object013	02 - Default
+Object003	bodyMat	prillMat
+Face	faceMat	04 - Default	14 - Default	faceMat	eyeMat	faceMat
+Cylinder002	15 - Default
+Box003	hairMat

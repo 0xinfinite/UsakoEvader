@@ -1,0 +1,591 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!208 &1487476041
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8580976238213549893}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 0
+  m_Extents: {x: 1.35, y: 1, z: 1.35}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: -0.34, z: 0}
+  m_TimeToStationary: 0.5
+--- !u!1001 &7589751248080865465
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2180295140780361724, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: m_Name
+      value: Turret (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2180295140780361724, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 331672627, guid: 9a9419146ce36a246b0ff6e9ab25a98a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 137169868234116064, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: rangeWeapon.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 137169868234116064, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: attackDelay
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 137169868234116064, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 137169868234116064, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: isUpperRotationSeperated
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 137169868234116064, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: triggerType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 137169868234116064, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: fireDistance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 137169868234116064, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: destination
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 137169868234116064, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 137169868234116064, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: rangeWeapon
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 137169868234116064, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: enemyLayerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 137169868234116064, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: rangeWeapon.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: ac2ef49d84be146419a471f466613655,
+        type: 2}
+    - target: {fileID: 3971580136831283417, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741622685667495014, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -24.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741622685667495014, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6700002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741622685667495014, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 44.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741622685667495014, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741622685667495014, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.42167968
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741622685667495014, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741622685667495014, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9067449
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741622685667495014, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741622685667495014, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741622685667495014, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -49.881
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741622685667495014, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560175863215060, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560175863215060, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176153288758, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176153288758, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176173614050, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176173614050, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176223863541, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176223863541, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176224501478, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176224501478, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176256373382, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176256373382, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176305777272, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176305777272, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176306701731, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176306701731, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176327692542, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176327692542, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176338350324, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176338350324, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176350511075, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176350511075, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176418762402, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176418762402, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176439195638, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176439195638, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176449584993, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176449584993, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176491881837, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176491881837, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176655796866, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176655796866, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176667381177, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176667381177, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176698191461, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176698191461, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176789581208, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176789581208, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176875935513, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176875935513, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176910351441, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176910351441, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176941517143, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176941517143, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176977156909, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176977156909, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176982415756, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560176982415756, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560177039769599, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560177039769599, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560177073509131, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560177073509131, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560177121565797, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560177121565797, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560177327350056, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560177327350056, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560177358180479, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560177358180479, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560177384444449, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560177384444449, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560177480527527, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560177480527527, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560177518860148, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560177518860148, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560177656678709, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560177656678709, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560177697057836, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560177697057836, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560177765831921, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560177765831921, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560177824925152, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: sphere
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878560177824925152, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: hitMask.m_Bits
+      value: 769
+      objectReference: {fileID: 0}
+    - target: {fileID: 6826292944872338497, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Assist
+      objectReference: {fileID: 0}
+    - target: {fileID: 777966105, guid: 9a9419146ce36a246b0ff6e9ab25a98a, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 777966105, guid: 9a9419146ce36a246b0ff6e9ab25a98a, type: 3}
+      propertyPath: trackDelayDuration
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 777966105, guid: 9a9419146ce36a246b0ff6e9ab25a98a, type: 3}
+      propertyPath: attackType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 777966105, guid: 9a9419146ce36a246b0ff6e9ab25a98a, type: 3}
+      propertyPath: fireDistance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 777966105, guid: 9a9419146ce36a246b0ff6e9ab25a98a, type: 3}
+      propertyPath: targetFowardDetectRadius
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 777966105, guid: 9a9419146ce36a246b0ff6e9ab25a98a, type: 3}
+      propertyPath: trackingTurnAnglePerSec
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 777966105, guid: 9a9419146ce36a246b0ff6e9ab25a98a, type: 3}
+      propertyPath: bulletHole
+      value: 
+      objectReference: {fileID: 2254698561742355448, guid: cadb2979be1ee2e449c86a6fa0b6154d,
+        type: 3}
+    - target: {fileID: 777966105, guid: 9a9419146ce36a246b0ff6e9ab25a98a, type: 3}
+      propertyPath: attackDelay
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6913541296920676547, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 6913541296920676547, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6913541296920676547, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3971580136831283414, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.68145865
+      objectReference: {fileID: 0}
+    - target: {fileID: 3971580136831283414, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.73185664
+      objectReference: {fileID: 0}
+    - target: {fileID: 3971580136831283414, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 274.085
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9a9419146ce36a246b0ff6e9ab25a98a, type: 3}
+--- !u!1 &8580976238213549893 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2180295140780361724, guid: 9a9419146ce36a246b0ff6e9ab25a98a,
+    type: 3}
+  m_PrefabInstance: {fileID: 7589751248080865465}
+  m_PrefabAsset: {fileID: 0}

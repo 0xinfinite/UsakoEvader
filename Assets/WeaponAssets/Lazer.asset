@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5351e4038d156124190eab07dd158e99, type: 3}
+  m_Name: Lazer
+  m_EditorClassIdentifier: 
+  weaponModel: {fileID: 577636508760412501, guid: 1deadbc69d03daf4f9ef3ded1fe51034,
+    type: 3}
+  attackDamage: 0.12
+  attackType: 0
+  triggerType: 0
+  maximumAttackRange: 50
+  attackEffectByDistance:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: -0.6
+      tangentMode: 65
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0.4
+      inSlope: -0.6
+      outSlope: -1
+      tangentMode: 5
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  attackEffectByCenterDistance:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  directionalRangeAttackArea: {fileID: 0}
+  fireRate: 0.05
+  burstRate: 0.3
+  forceReleaseTriggerDuration: 0.3
+  burstShotCountWhenTriggerPulled: 3
+  projectileSpeed: 10
+  shells:
+  - {x: 0, y: 0, z: 0, w: 0}
+  shootAnimationObject: {fileID: 3104913369188885270, guid: d730f9dccb1dc144685dede1ec29e356,
+    type: 3}
+  isShootAnimParentNull: 1

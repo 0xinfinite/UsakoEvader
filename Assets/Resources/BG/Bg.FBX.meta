@@ -1,0 +1,262 @@
+fileFormatVersion: 2
+guid: e3062a9dacf986348b4fcfcf5e86a9df
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Body
+    100004: Box001
+    100006: Box005
+    100008: Box006
+    100010: Box007
+    100012: Box008
+    100014: Box009
+    100016: Box010
+    100018: Box011
+    100020: Camera001
+    100022: Camera001.Target
+    100024: Camera002
+    100026: Camera002.Target
+    100028: Cone001
+    100030: Cylinder001
+    100032: Cylinder002
+    100034: FDirect001
+    100036: Object001
+    100038: Apple
+    100040: Box012
+    100042: Box013
+    100044: Box014
+    100046: Cherry
+    100048: Cylinder003
+    100050: Mushroom
+    100052: Object002
+    100054: Object003
+    100056: Object004
+    100058: Object005
+    100060: Object006
+    100062: Object007
+    100064: Rainbow
+    100066: TreeDoor_L
+    100068: TreeDoor_R
+    100070: TreeParent
+    400000: //RootNode
+    400002: Body
+    400004: Box001
+    400006: Box005
+    400008: Box006
+    400010: Box007
+    400012: Box008
+    400014: Box009
+    400016: Box010
+    400018: Box011
+    400020: Camera001
+    400022: Camera001.Target
+    400024: Camera002
+    400026: Camera002.Target
+    400028: Cone001
+    400030: Cylinder001
+    400032: Cylinder002
+    400034: FDirect001
+    400036: Object001
+    400038: Apple
+    400040: Box012
+    400042: Box013
+    400044: Box014
+    400046: Cherry
+    400048: Cylinder003
+    400050: Mushroom
+    400052: Object002
+    400054: Object003
+    400056: Object004
+    400058: Object005
+    400060: Object006
+    400062: Object007
+    400064: Rainbow
+    400066: TreeDoor_L
+    400068: TreeDoor_R
+    400070: TreeParent
+    2000000: Camera001
+    2000002: Camera002
+    2100000: 03 - Default
+    2100002: 24 - Default
+    2100004: 01 - Default
+    2100006: 15 - Default
+    2100008: 08 - Default
+    2100010: 04 - Default
+    2100012: 14 - Default
+    2100014: 19 - Default
+    2100016: 11 - Default
+    2100018: 02 - Default
+    2100020: 20 - Default
+    2100022: 13 - Default
+    2100024: No Name
+    2300000: Body
+    2300002: Box001
+    2300004: Box005
+    2300006: Box006
+    2300008: Box007
+    2300010: Box008
+    2300012: Box009
+    2300014: Box010
+    2300016: Box011
+    2300018: Cone001
+    2300020: Cylinder001
+    2300022: Cylinder002
+    2300024: Object001
+    2300026: Apple
+    2300028: Box012
+    2300030: Box013
+    2300032: Box014
+    2300034: Cherry
+    2300036: Cylinder003
+    2300038: Mushroom
+    2300040: Object002
+    2300042: Object003
+    2300044: Object004
+    2300046: Object005
+    2300048: Object006
+    2300050: Object007
+    2300052: Rainbow
+    3300000: Body
+    3300002: Box001
+    3300004: Box005
+    3300006: Box006
+    3300008: Box007
+    3300010: Box008
+    3300012: Box009
+    3300014: Box010
+    3300016: Box011
+    3300018: Cone001
+    3300020: Cylinder001
+    3300022: Cylinder002
+    3300024: Object001
+    3300026: Apple
+    3300028: Box012
+    3300030: Box013
+    3300032: Box014
+    3300034: Cherry
+    3300036: Cylinder003
+    3300038: Mushroom
+    3300040: Object002
+    3300042: Object003
+    3300044: Object004
+    3300046: Object005
+    3300048: Object006
+    3300050: Object007
+    3300052: Rainbow
+    4300000: Body
+    4300002: Box001
+    4300004: Box005
+    4300006: Box006
+    4300008: Box007
+    4300010: Cone001
+    4300012: Cylinder001
+    4300014: Box008
+    4300016: Cylinder002
+    4300018: Object001
+    4300020: Box009
+    4300022: Box010
+    4300024: Box011
+    4300026: Rainbow
+    4300028: Box012
+    4300030: Box013
+    4300032: Box014
+    4300034: Object002
+    4300036: Cylinder003
+    4300038: Apple
+    4300040: Cherry
+    4300042: Mushroom
+    4300044: Object003
+    4300046: Object004
+    4300048: Object005
+    4300050: Object006
+    4300052: Object007
+    7400000: Take 001
+    9500000: //RootNode
+    10800000: FDirect001
+    13700000: Box007
+    6000828045688606266: Camera001
+    6000828045688606268: Camera002
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,20 @@
+R_Wrist	LookAt	X	Z	Bip001 R Hand	Bip001 R Hand	1
+L_Wrist	LookAt	X	Z	Bip001 L Hand	Bip001 L Hand	1
+Bone001_armpit_R	LookAt	X	Y	World	PointArmpitTargetR	1
+Bone001_armpit_L	LookAt	X	Y	World	PointArmpitTargetL	1
+Point R Ankle	LookAt	X	Z	Point RAnkle Foward	Point R Hip	1
+Point L Ankle	LookAt	X	Z	Point L Ankle Foward	Point L Hip	1
+Bn_R_UpperArmTwist01	LookAt	X	Z	Bip001 R Clavicle	PointElbowPointR	1
+Bn_L_UpperArmTwist01	LookAt	X	Z	Bip001 L Clavicle	PointElbowPointL001	1
+Bn_R_ThighTwist001	Rotate	Bip001 R Calf	0.5	Point R Ankle	0.5
+Bn_L_ThighTwist001	Rotate	Bip001 L Calf	0.5	Point L Ankle	0.5
+Bn_R_ThighTwist0	Rotate	Bip001 R Thigh	0.5
+Bn_L_ThighTwist0	Rotate	Bip001 L Thigh	0.5
+Bn_R_ThighTwist1	Rotate	Point R Ankle	0.5	Point R Hip	0.5
+Bn_L_ThighTwist1	Rotate	Point L Ankle	0.5	Point L Hip	0.5
+Bn_R_UpperArmTwist02	Rotate	Bn_R_UpperArmTwist01	0.5	Bip001 R UpperArm	0.5
+Bn_L_UpperArmTwist02	Rotate	Bn_L_UpperArmTwist01	0.5	Bip001 L UpperArm	0.5
+R_Elbow	Rotate	Bip001 R UpperArm	0.5	Bip001 R Forearm	0.5
+L_Elbow	Rotate	Bip001 L UpperArm	0.5	Bip001 L Forearm	0.5
+Bone001_SHoulder R	Rotate	Point ClavicleR	0.5	Bn_R_UpperArmTwist01	0.5
+Bone001_SHoulder L	Rotate	Point ClavicleL	0.5	Bn_L_UpperArmTwist01	0.5

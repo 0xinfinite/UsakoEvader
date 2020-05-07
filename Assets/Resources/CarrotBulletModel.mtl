@@ -1,0 +1,5 @@
+newmtl BulletMat
+map_Kd BulletTex.png
+Kd 1 1 1
+d 1
+

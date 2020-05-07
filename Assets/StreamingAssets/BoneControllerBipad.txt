@@ -1,0 +1,40 @@
+Bone R Armpit	LookAt	Point R Armpit Upnode	Point R Armpit	1
+Bone L Armpit	LookAt	Point L Armpit Upnode	Point L Armpit	1
+Bone R UpperArmCustom	LookAt	Bip001 R Clavicle	Point R Elbow	1
+Bone L UpperArmCustom	LookAt	Bip001 L Clavicle	Point L Elbow	1
+Bone R Ankle	Rotate	Bip001 R Foot	1
+Bone L Ankle	Rotate	Bip001 L Foot	1
+Bone R Shoulder	Rotate	Bip001 R Clavicle	0.5	Bone R UpperArmCustom	0.5
+Bone L Shoulder	Rotate	Bip001 L Clavicle	0.5	Bone L UpperArmCustom	0.5
+Bip001 RUpArmTwist	Rotate	Bip001 R UpperArm	1
+Bip001 RUpArmTwist1	Rotate	Bip001 R UpperArm	0.8	RUpperArmTwistRefer	0.2
+Bip001 RUpArmTwist2	Rotate	Bip001 R UpperArm	0.6	RUpperArmTwistRefer	0.4
+Bip001 RUpArmTwist3	Rotate	Bip001 R UpperArm	0.4	RUpperArmTwistRefer	0.6
+Bip001 RUpArmTwist4	Rotate	Bip001 R UpperArm	0.2	RUpperArmTwistRefer	0.8
+Bip001 LUpArmTwist	Rotate	Bip001 L UpperArm	1
+Bip001 LUpArmTwist1	Rotate	Bip001 L UpperArm	0.8	LUpperArmTwistRefer	0.2
+Bip001 LUpArmTwist2	Rotate	Bip001 L UpperArm	0.6	LUpperArmTwistRefer	0.4
+Bip001 LUpArmTwist3	Rotate	Bip001 L UpperArm	0.4	LUpperArmTwistRefer	0.6
+Bip001 LUpArmTwist4	Rotate	Bip001 L UpperArm	0.2	LUpperArmTwistRefer	0.8
+Bip001 R ForeTwist	Rotate	Bip001 R Forearm	1
+Bip001 R ForeTwist1	Rotate	Bip001 R Forearm	0.8	RForeArmTwistRefer	0.2
+Bip001 R ForeTwist2	Rotate	Bip001 R Forearm	0.6	RForeArmTwistRefer	0.4
+Bip001 R ForeTwist3	Rotate	Bip001 R Forearm	0.4	RForeArmTwistRefer	0.6
+Bip001 R ForeTwist4	Rotate	Bip001 R Forearm	0.2	RForeArmTwistRefer	0.8
+Bip001 L ForeTwist	Rotate	Bip001 L Forearm	1
+Bip001 L ForeTwist1	Rotate	Bip001 L Forearm	0.8	LForeArmTwistRefer	0.2
+Bip001 L ForeTwist2	Rotate	Bip001 L Forearm	0.6	LForeArmTwistRefer	0.4
+Bip001 L ForeTwist3	Rotate	Bip001 L Forearm	0.4	LForeArmTwistRefer	0.6
+Bip001 L ForeTwist4	Rotate	Bip001 L Forearm	0.2	LForeArmTwistRefer	0.8
+Bone R Elbow	Rotate	Bip001 R UpperArm	0.5	Bip001 R Forearm	0.5
+Bone L Elbow	Rotate	Bip001 L UpperArm	0.5	Bip001 L Forearm	0.5
+Bone R Hip	Rotate	Point R Hip	0.5	Bip001 R Thigh	0.5
+Bone L Hip	Rotate	Point L Hip	0.5	Bip001 L Thigh	0.5
+Bip001 RThighTwist	Rotate	Bip001 R Thigh	1
+Bip001 RThighTwist1	Rotate	Bip001 R Thigh	0.67	RThighTwistRefer	0.33
+Bip001 RThighTwist2	Rotate	Bip001 R Thigh	0.33	RThighTwistRefer	0.67
+Bip001 LThighTwist	Rotate	Bip001 L Thigh	1
+Bip001 LThighTwist1	Rotate	Bip001 L Thigh	0.67	LThighTwistRefer	0.33
+Bip001 LThighTwist2	Rotate	Bip001 L Thigh	0.33	LThighTwistRefer	0.67
+Bone R Knee	Rotate	Bip001 R Thigh	0.5	Bip001 R Calf	0.5
+Bone L Knee	Rotate	Bip001 L Thigh	0.5	Bip001 L Calf	0.5

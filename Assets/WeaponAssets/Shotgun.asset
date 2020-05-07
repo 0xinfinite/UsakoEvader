@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5351e4038d156124190eab07dd158e99, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  weaponModel: {fileID: 577636508760412501, guid: 9964c3540861af345b1392a259d7fba6,
+    type: 3}
+  attackDamage: 1.2
+  attackType: 2
+  triggerType: 1
+  maximumAttackRange: 15
+  attackEffectByDistance:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -1.4755114
+      outSlope: -1.4755114
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.09482759
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  attackEffectByCenterDistance:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.9
+      value: 0
+      inSlope: 13.29807
+      outSlope: 13.29807
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.2758621
+      outWeight: 0.16091938
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2.3349423
+      outSlope: 2.3349423
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.264368
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  directionalRangeAttackArea: {fileID: 3977024573688922970, guid: 9cd618a0fd255ef4ebf5867650f360b0,
+    type: 3}
+  fireRate: 0.67
+  burstRate: 0
+  forceReleaseTriggerDuration: 0.1
+  burstShotCountWhenTriggerPulled: 0
+  projectileSpeed: 0
+  shootAnimationObject: {fileID: 8606911541697550204, guid: b4ebf6f9113d22b4bab11eaab6360910,
+    type: 3}
+  isShootAnimParentNull: 0
